@@ -85,3 +85,19 @@ body {
     width: 100%;
     margin: 0;
   }
+
+
+@media screen and (max-width: 768px) {
+  .text-content{
+    flex-wrap: wrap;
+  }
+
+  .stay-tuned{
+    width: 100%;
+    font-size: 32px;
+  }
+
+  .logo img{
+    max-width: 100px;
+  }
+}
